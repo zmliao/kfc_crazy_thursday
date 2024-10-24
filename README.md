@@ -31,7 +31,7 @@ from kfc_crazy_thursday import kfc
 ```
 
 ## Usage
-
+![](assets/img.png)
 Simply Vivo Me **50** CNY on **Thursday**!
 ```python
 kfc(50)
