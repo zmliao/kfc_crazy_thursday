@@ -12,21 +12,29 @@ Welcome to the **KFC Crazy Thursday Module** — your personal assistant for nav
 
 To install the KFC Crazy Thursday Module, follow these simple steps:
 
-1. **Make sure you have Python 3.x** installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+1. **Make sure you have Python >=3.6** installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
    
 2. **Download the module**: Clone or download this repository to your local machine. You can use the following command to clone it:
 
    ```bash
-   git clone https://github.com/yourusername/kfc-payment-reminder.git
+   git clone https://github.com/zmliao/kfc_crazy_thursday
    cd kfc_crazy_thursday
+   pip install setup.py
 Or, if you prefer to download it as a ZIP file, click on the green "Code" button and select "Download ZIP".
 Navigate to the directory where the module is located:
 ```bash
-cd kfc-payment-reminder
+cd kfc_crazy_thursday
 ```
 Enjoy the module: You can now import the module in your Python scripts. Simply add the following line at the top of your Python file:
 ```python
-from kfc import kfc
+from kfc_crazy_thursday import kfc
+```
+
+## Usage
+
+Simply Vivo Me **50** CNY on **Thursday**!
+```python
+kfc(50)
 ```
 
 ## Contributions
