@@ -19,6 +19,17 @@ def kfc(cny):
     try:
         assert cny >= 50
         print("Thank You For Vivo Me 50 CNY!")
+        print(r"""
+            🍔            🍗            🍟
+        .-""""""-.      __             ||
+        /          \    _/  \           _||_
+        |            |  /      |         |____|
+        |  (o)  (o)  | |       |         |____|
+        |     __     |  \      |         |____|
+        \  \____/  /    \__  _|         
+        '-.____.-'       \\             
+                            \\             
+        """)
         return cny - 50
     except Exception as e:
         raise KFCError("KFC Crazy Thursday WhoEver Vivos me 50 CNY, I Will Thank Him.")

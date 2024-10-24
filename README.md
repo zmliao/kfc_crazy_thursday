@@ -18,6 +18,7 @@ To install the KFC Crazy Thursday Module, follow these simple steps:
 
    ```bash
    git clone https://github.com/yourusername/kfc-payment-reminder.git
+   cd kfc_crazy_thursday
 Or, if you prefer to download it as a ZIP file, click on the green "Code" button and select "Download ZIP".
 Navigate to the directory where the module is located:
 ```bash
